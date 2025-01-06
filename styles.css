@@ -249,7 +249,7 @@ p {
   box-shadow: hsl(233deg 54.57% 34.74%) 0px 3px 3px;
 }
 
-.btn-container > button:hover{
+.btn-container > button:hover {
   opacity: 0.8;
   cursor: pointer;
   transition: 0.3s ease;
@@ -320,6 +320,11 @@ p {
   margin: 5rem 0;
 }
 
+.sixth-section > h2,
+.fifth-section > h2 {
+  display: none;
+}
+
 .sixth-section > .partner-logos {
   display: flex;
   flex-direction: column;
@@ -387,13 +392,12 @@ p {
   color: hsl(171, 66%, 44%);
 }
 
-
 .social-links > a > svg path {
   transition: fill 0.3s ease;
 }
 
 .social-links > a:hover svg path {
-  fill: #26baa4; 
+  fill: #26baa4;
 }
 
 @media screen and (min-width: 1024px) {
